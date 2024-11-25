@@ -1,0 +1,32 @@
+body{
+    
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.one{
+    height:480px;
+    flex: auto;
+    background-color: #1f2937;
+}
+.two{
+    height: 400px;
+    flex: auto;
+    background-color: white;
+}
+.three{
+    height: 330px;
+    flex: auto;
+    background-color: #e5e7eb;
+}
+.four{
+    height: 250px;
+    flex: auto;
+    background-color: white;
+}
+.five{
+    height: 50px;
+    flex: auto;
+    background-color: #1f2937;
+}
