@@ -10,7 +10,7 @@ body{
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
-    padding: 32px 190px 80px;
+    padding: 22px 190px 90px;
     gap: 100px; 
 }
 
