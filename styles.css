@@ -61,40 +61,62 @@ button{
     border-radius: 8px;
 
 }
-
-    
-
-img{
+ 
+.image img{
     height: 100%;
     width: 100%;
     min-width: 50px;
-    
 }
-
-
-
 
 a{
     color: #e5e7eb;
     text-decoration: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .two{
-    height: 400px;
     flex: auto;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    gap:48px;
+    
+
 }
+.title_two{
+    margin: 0;
+    padding-top: 48px;
+    font-size: 30px;
+    font-weight: 900;
+    color:#1f2937;
+    
+}
+.illustrations{
+    display: flex;
+    gap: 48px;
+    text-align: center;
+    margin-bottom: 100px;
+    
+
+}
+.i{
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    gap: 6px;
+
+}
+.illustrations img{
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+    width: 140px;
+    height: 140px;
+}
+
+
+
+
 .three{
     height: 330px;
     flex: auto;
