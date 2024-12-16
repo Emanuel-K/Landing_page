@@ -183,11 +183,17 @@ body{
 
 
 .five{
-    height: 50px;
     flex: auto;
     background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.footer{
+    margin : 32px;
+    color: white;
+}
 a{
     color: #e5e7eb;
     text-decoration: none;
